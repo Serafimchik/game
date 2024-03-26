@@ -1,0 +1,21 @@
+<dialogue>
+	<node>
+		<npctext> Привет, дурной кароль</npctext>
+		<answers>
+			<answer tonode = "1"> <text>Где тут золото? </text> </answer>
+			<answer tonode = "2"> <text> Ты не знаешь где здесь можно раздобыть золото? </text> </answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Тута нет золота иди к эльфам</npctext>
+		<answers>
+			<answer tonode = "2"> <text> Ты не знаешь где здесь можно раздобыть золото? </text> </answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Иди на север там найдёшь рудник</npctext>
+		<answers>
+			<answer tonode = "0"> <text> Хорошо, поищу. Спасибо! </text> <dialogend>true</dialogend> </answer>
+		</answers>
+	</node>
+</dialogue>

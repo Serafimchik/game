@@ -1,0 +1,24 @@
+<dialogue>
+	<node>
+		<npctext> Привет, эльф</npctext>
+		<answers>
+			<answer tonode = "1"> <text>хочу дерева </text> </answer>
+			<answer tonode = "2"> <text>Хачу золота </text> </answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> иди на восток там лес</npctext>
+		<answers>
+			<answer tonode = "0">
+				<text> Хорошо, поищу. Спасибо! </text>
+				<dialogend>true</dialogend>
+			</answer>
+		</answers>
+	</node>
+	<node>
+		<npctext> Иди на север там найдёшь золота</npctext>
+		<answers>
+			<answer tonode = "0"> <text> Хорошо, поищу. Спасибо! </text> <dialogend>true</dialogend> </answer>
+		</answers>
+	</node>
+</dialogue>
